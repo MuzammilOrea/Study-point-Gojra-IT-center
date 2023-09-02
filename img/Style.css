@@ -1,0 +1,95 @@
+
+h1  {
+      color:red;
+
+}
+h2{
+     color:purple;
+}
+h3{
+     color:purple;
+}
+p b{
+ color:orange;
+}
+mark{
+  color:green;
+}
+.header{
+      border: 2px solid black;
+      height: 160px; 
+      background-color:pink;
+}
+.header1{
+      border: 2px solid black;
+      height: 60px; 
+      background-color:pink;
+} 
+a{
+     text-decoration:none;
+}
+.developers img{
+                            border:1px solid black;
+                            border-radius:45%;
+}
+.team img{
+                            border:1px solid black;
+                            border-radius:45%;
+}
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+  
+  .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+  }
+  
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .contact-form {
+      background: #f9f9f9;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  .contact-form label {
+      font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+      height: 100px;
+  }
+  
+  .contact-form button[type="submit"] {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+      background: #555;
+  }
+  

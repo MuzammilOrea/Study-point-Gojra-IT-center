@@ -1,0 +1,295 @@
+* 
+  /* NAVBAR STYLING STARTS */
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: cursive,arial;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar li {
+    list-style: none;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: teal;
+    color: #fff;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  /* DROPDOWN MENU */
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }
+  
+  .services:hover .dropdown {
+    display: block;
+  }
+ /*Body*/
+ body{
+  padding:0%;
+  margin: 0%;
+ }
+ h1,u{
+  color:rgb(1, 139, 139);
+  text-shadow: 3px 3px 5px black;
+ }
+.text{
+  position: absolute;
+  top:120px;left:30% ;
+ }
+p{
+  text-indent: 14px;
+  line-height:2.2;
+  word-spacing:10px;
+}
+.text b{
+color: #4c9e9e;
+}
+.rows{
+  margin-left: 15%;
+  margin-bottom:6% ;
+}
+/*Cards*/
+.card{
+  border:2px dotted forestgreen ;
+  margin-bottom:3%;margin-top: 3%;
+}
+.container {
+  position:absolute;
+  top: 115%;
+}
+
+h5{
+color:teal;
+}
+/*Footer*/
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #e0e0e0;
+}
+.container h5{
+color:teal;
+}
+/*Table*/
+footer h2{
+  color:#e0e0e0;
+}
+footer a{
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: color 0.3s;}
+  .table a:hover {
+    background-color:#4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    border-width:20px ;
+  }
+  /*home*/
+.table .home{
+  position: absolute;
+  top:100%;
+  background-color: teal;
+  border: 1px solid #4c9e9e;
+  width: 133%;
+  font-size:18px;
+  left: 0%;
+overflow:hidden;
+}
+.footer .home{
+  background-color:teal;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  left: 0%;
+  width:133%;
+  position:absolute;
+  top:125%;
+ overflow: hidden; 
+}
+
+/*team*/
+.table .team{
+  position: absolute;
+  top:179%;  
+  background-color: teal;
+  border: 1px solid #4c9e9e;
+  width: 100%;
+  font-size:18px;
+  overflow: hidden;
+}
+.footer .team{
+  background-color:teal;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  top:230%;
+  overflow: hidden;
+  }
+/*services*/
+.table .services{
+  position: absolute;
+  top:240%;  
+  background-color: teal;
+  border: 1px solid #4c9e9e;
+  width: 100%;
+  font-size:18px;
+}
+.footer .services{
+  background-color:teal;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  top:290%;
+  }
+/*developers*/
+.table .developers{
+  position: absolute;
+  top:330%;  
+  background-color: teal;
+  border: 1px solid #4c9e9e;
+  width: 100%;
+  font-size:18px;
+}
+.footer .developers{
+  background-color:teal;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  top:380%;
+  }
+/*contact us*/
+.table .contact{
+  position: absolute;
+  top:180%;  
+  background-color: teal;
+  border: 1px solid #4c9e9e;
+  width: 100%;
+  font-size:18px;
+}
+.footer .contact{
+  background-color:teal;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  top:230%;
+  }
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Contact us*/
+/* Basic styling for the form container */
+.contact-form {
+    max-width: 400px;
+    margin-left:35%;margin-top:5%;margin-bottom: 5%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+/* Style for form headings */
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+/* Style for form inputs */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for submit button */
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#4c9e9e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+  
